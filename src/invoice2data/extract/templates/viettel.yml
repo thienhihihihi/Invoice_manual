@@ -1,0 +1,67 @@
+issuer: "TỔNG CÔNG TY CP BƯU CHÍNH VIETTEL"
+keywords:
+  - "HÓA ĐƠN GIÁ TRỊ GIA TĂNG"
+  - "TỔNG CÔNG TY CP BƯU CHÍNH VIETTEL"
+  - "vinvoice.viettel.vn"
+
+fields:
+  date:
+    parser: regex
+    regex: "Ngày \(date\) (\d{2}) tháng \(month\) (\d{2}) năm \(year\) (\d{4})"
+    date_formats:
+      - "%d %m %Y"
+
+  invoice_number:
+    parser: regex
+    regex: "Số \\(No\\.\\):\s+(\d+)"
+    
+  serial_number:
+    parser: regex
+    regex: "Ký hiệu \\(Serial\\):\s+([A-Z0-9]+)"
+    
+  seller:
+    parser: static
+    static: "TỔNG CÔNG TY CP BƯU CHÍNH VIETTEL"
+
+  buyer:
+    parser: regex
+    regex: "Tên đơn vị \\(Company name\\):\s+(.+)"
+
+  buyer_tax_code:
+    parser: regex
+    regex: "Mã số thuế \\(Tax code\\):\s+(0308215287)"  # hoặc viết chung hơn nếu nhiều mã khác
+
+  total_net:
+    parser: regex
+    regex: "Cộng tiền hàng \\(Total amount\\):\s+([\d.]+)"
+    type: float
+
+  tax_rate:
+    parser: regex
+    regex: "Thuế suất GTGT.+?:\s+(\d+)%"
+    type: float
+
+  tax:
+    parser: regex
+    regex: "Tiền thuế GTGT.+?:\s+([\d.]+)"
+    type: float
+
+  total:
+    parser: regex
+    regex: "Tổng cộng tiền thanh toán.+?:\s+([\d.]+)"
+    type: float
+
+  amount_words:
+    parser: regex
+    regex: "Số tiền viết bằng chữ.+?:\s+(.+)"
+    
+lines:
+  start: "STT"
+  end: "Cộng tiền hàng"
+  parser: lines
+  first_line:
+    - '^\s*(?P<item_no>\d+)\s+(?P<name>.+?)\s+(?P<uom>\w+)\s+(?P<qty>[\d.]+)\s+(?P<unit_price>[\d.]+)\s+(?P<line_total>[\d.]+)$'
+  types:
+    qty: float
+    unit_price: float
+    line_total: float

@@ -1,0 +1,39 @@
+                                                                                                                               Ký hiệu (Serial):           1K25TAL
+                                                 HÓA ĐƠN GIÁ TRỊ GIA TĂNG
+                                                                     (VAT INVOICE)                                             Số (No.):                   2321158
+                                                       Bản thể hiện của hóa đơn điện tử
+                                                           (Electronic invoice display)
+                                                 Ngày (date) 29 tháng (month) 05 năm (year) 2025
+Đơn vị bán hàng (Issued): TỔNG CÔNG TY CP BƯU CHÍNH VIETTEL
+Mã số thuế (Tax code): 0104093672
+Địa chỉ (Address): Số 2, ngõ 15 phố Duy Tân, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Thành Phố Hà Nội, Việt Nam
+Họ tên người mua hàng (Buyer name):
+Tên đơn vị (Company name): CÔNG TY TNHH R-PAC VIỆT NAM
+Mã số thuế (Tax code): 0308215287
+Địa chỉ (Address): 189B7 Nguyễn Văn Hưởng, Phường Thảo Điền, Thành Phố Thủ Đức, Thành Phố Hồ Chí Minh, Việt Nam
+Hình thức thanh toán (Payment method): TM/CK                                          Số tài khoản (Account No.): .
+Ghi chú (Note):
+STT                          Tên hàng hóa, dịch vụ                                            ĐVT             Số lượng            Đơn giá                  Thành tiền
+(No.)                            (Description)                                                (Unit)         (Quantity)          (Unit price)               (Amount)
+ 1                                           2                                                   3                 4                     5                      6=4x5
+ 1      Cước chuyển phát tháng 05/2025                                                       Tháng                         1       193.925.015                  193.925.015
+
+
+
+
+                                                                                                       Cộng tiền hàng (Total amount):                           193.925.015
+Thuế suất GTGT (VAT rate): 8%                                                                         Tiền thuế GTGT (VAT Amount):                               15.514.001
+                                                                                      Tổng cộng tiền thanh toán (Total payment):                                209.439.016
+Số tiền viết bằng chữ (Amount in words): Hai trăm lẻ chín triệu bốn trăm ba mươi chín nghìn không trăm mười sáu đồng
+                     Người mua hàng (Buyer)                                                                       Người bán hàng (Seller)
+
+                                                                                     Ký bởi TỔNG CÔNG TY CỔ PHẦN BƯU CHÍNH VIETTEL
+                                                                                                     Ký ngày 29/05/2025
+
+
+
+
+                                                              (Cần kiểm tra, đối chiếu khi lập, giao, nhận hóa đơn)
+                            Đơn vị cung cấp dịch vụ Hóa đơn điện tử: Tập đoàn Công nghiệp - Viễn thông Quân đội (Viettel), MST: 0100109106
+              Tra cứu hóa đơn điện tử tại Website: https://vinvoice.viettel.vn/utilities/invoice-search . Mã số bí mật: 6YA1AG9T8C7LDL4. Mã của cơ quan thuế:
+

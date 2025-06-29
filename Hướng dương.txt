@@ -1,0 +1,94 @@
+                                           HÓA ĐƠN GIÁ TRỊ GIA TĂNG                                                Mẫu số (Form): 1
+                             PHIẾU THU CƯỚC VẬN CHUYỂN- PHIẾU PHỤ THU DỊCH VỤ Ký hiệu (Serial): C25TSS
+                                           (SALES INVOICE/ RECEIPT)              Số (No): 00001227
+                                 Ngày (Date) 30 tháng (Month) 05 năm (Year) 2025
+                                Mã CQT: 00C1F0C4B749464203BD0E26ACBF95EA05
+Đơn vị bán hàng (Seller): CÔNG TY TNHH ĐẦU TƯ VÀ THƯƠNG MẠI HƯỚNG DƯƠNG VIỆT NAM
+Mã số thuế (Tax code): 0106596544
+Địa chỉ (Address): Số 44, ngõ 218 phố Tây Sơn, Phường Trung Liệt - Quận Đống Đa - Thành phố Hà Nội, Việt Nam
+Điện thoại (Tel): (024) 7773 8886
+Số tài khoản (Bank No): 0011004189531 Tại Ngân Hàng: Ngân Hàng TMCP Ngoại Thương Việt Nam - Sở giao dịch
+Email: Website: http://huongduongtravel.vn
+Họ tên khách hàng(Customer 's name):
+Tên đơn vị (Company's Name): CÔNG TY TNHH R-PAC VIỆT NAM
+Mã số thuế (Tax Code): 0308215287
+Địa chỉ (Address): Số 189B7 , Nguyễn Văn Hưởng, Phường Thảo Điền, TP.Thủ Đức, TP. Hồ Chí Minh.
+Hình thức thanh toán (Payment method): TM/CK
+1. Tiền vé (Due to the Airlines):
+ 1.1 Giá cước (Fare):
+                                                                            Đơn vị
+STT                    Tên hàng hóa, dịch vụ                                            Số lượng             Đơn giá             Thành tiền
+                                                                             tính
+(No.)                        (Descriptions)                                  (Unit)     (Quantity)        (Unit Price)           (Amount)
+
+  1     Vé máy bay nội địa                                                     Vé             1                 3.937.037             3.937.037
+
+  2     Vé máy bay nội địa                                                     Vé             1                 2.575.000             2.575.000
+
+  3     Vé máy bay nội địa                                                     Vé             1                 2.878.704             2.878.704
+
+  4     Vé máy bay nội địa                                                     Vé             1                 3.066.667             3.066.667
+
+  5     Vé máy bay nội địa                                                     Vé             1                 3.066.667             3.066.667
+
+  6     Vé máy bay nội địa                                                     Vé             1                 3.066.667             3.066.667
+
+
+
+
+                                                                        Trang: 1/2
+                          Đơn vị cung cấp giải pháp hóa đơn điện tử : Công ty cổ phần tích hợp công nghệ VNISC-MST: 0102331762
+                                           HÓA ĐƠN GIÁ TRỊ GIA TĂNG                                                Mẫu số (Form): 1
+                             PHIẾU THU CƯỚC VẬN CHUYỂN- PHIẾU PHỤ THU DỊCH VỤ Ký hiệu (Serial): C25TSS
+                                           (SALES INVOICE/ RECEIPT)              Số (No): 00001227
+                                 Ngày (Date) 30 tháng (Month) 05 năm (Year) 2025
+                                Mã CQT: 00C1F0C4B749464203BD0E26ACBF95EA05
+Đơn vị bán hàng (Seller): CÔNG TY TNHH ĐẦU TƯ VÀ THƯƠNG MẠI HƯỚNG DƯƠNG VIỆT NAM
+Mã số thuế (Tax code): 0106596544
+Địa chỉ (Address): Số 44, ngõ 218 phố Tây Sơn, Phường Trung Liệt - Quận Đống Đa - Thành phố Hà Nội, Việt Nam
+Điện thoại (Tel): (024) 7773 8886
+Số tài khoản (Bank No): 0011004189531 Tại Ngân Hàng: Ngân Hàng TMCP Ngoại Thương Việt Nam - Sở giao dịch
+Email: Website: http://huongduongtravel.vn
+Họ tên khách hàng(Customer 's name):
+Tên đơn vị (Company's Name): CÔNG TY TNHH R-PAC VIỆT NAM
+Mã số thuế (Tax Code): 0308215287
+Địa chỉ (Address): Số 189B7 , Nguyễn Văn Hưởng, Phường Thảo Điền, TP.Thủ Đức, TP. Hồ Chí Minh.
+Hình thức thanh toán (Payment method): TM/CK
+1. Tiền vé (Due to the Airlines):
+ 1.1 Giá cước (Fare):
+                                                                            Đơn vị
+STT                     Tên hàng hóa, dịch vụ                                           Số lượng             Đơn giá             Thành tiền
+                                                                             tính
+(No.)                        (Descriptions)                                  (Unit)     (Quantity)        (Unit Price)           (Amount)
+
+  7     Vé máy bay nội địa                                                     Vé             1                 3.133.333             3.133.333
+
+
+
+
+                                             Tổng số tiền(Total):                                                                   21.724.075
+ 1.2 Thuế suất GTGT (VAT rate):                 8%                                       Tiền thuế GTGT (VAT):                        1.737.925
+ 1.3 Các khoản thu hộ khác (Other Taxes/Fees/Charges):
+      1.3.1 Các khoản thu hộ nhà chức trách (Authorized Collection):                                                                  5.928.000
+      1.3.2 Phí khác (Other Fees/Charges):                                                                                                    0
+ 1.4 Tổng tiền vé (1.1+1.2+1.3)                                                                                                     29.390.000
+2. Phần thu phí dịch vụ (Agent Fee/Charge):
+ 2.1 Tiền phí dịch vụ (Service fee):                                                                                                          0
+ 2.2 Thuế suất GTGT (VAT rate):                                                          Tiền thuế GTGT (VAT):
+ 2.3 Tổng tiền phí dịch vụ (2.1+2.2)                                                                                                          0
+Tổng số tiền thanh toán (Equivalent amount paid)(1.4+2.3)                                                                           29.390.000
+Bằng chữ (Inwords): Hai mươi chín triệu ba trăm chín mươi nghìn đồng.
+Hóa đơn điện tử được tra cứu tại: https://invoice.abcsys.vn/Invoice/Search Mã tra cứu HĐĐT này: FHD-LSGEBCLJKB6L
+      Người mua hàng(Buyer)                                                                              Người bán hàng(Seller)
+
+                                                                                                     Ký bởi:
+                                                                                                     CÔNG TY TNHH ĐẦU TƯ VÀ THƯƠNG
+                                                                                                     MẠI HƯỚNG DƯƠNG VIỆT NAM
+                                                                                                     Ngày: 30/05/2025
+
+
+
+
+                                                                        Trang: 2/2
+                          Đơn vị cung cấp giải pháp hóa đơn điện tử : Công ty cổ phần tích hợp công nghệ VNISC-MST: 0102331762
+

@@ -1,0 +1,44 @@
+issuer: 'CÔNG TY XĂNG DẦU KHU VỰC II TNHH MỘT THÀNH VIÊN'
+keywords:
+  - 'HÓA ĐƠN GIÁ TRỊ GIA TĂNG'
+  - 'CÔNG TY XĂNG DẦU KHU VỰC II'
+options:
+  decimal_separator: ','
+  remove_thousand_separator: true
+fields:
+  invoice_number: 'Số:\s+(\d+)'  
+  date: 'Ngày\s+(\d{2}\s+tháng\s+\d{2}\s+năm\s+\d{4})'
+  seller: 'Đơn vị bán hàng:\s+(.+?)\s+Mã số thuế:'
+  seller_tax_code:
+    regex: "Mã số thuế:\\s+(\\d{10}(?:-\\d{3})?)"
+    parser: regex
+    group: first
+    
+  seller_address: 'Địa chỉ:\s+(.+?)\s+Cửa hàng số:'
+  store: 'Cửa hàng số:\s+(.+)'
+  buyer:
+    regex: "Người mua hàng:\\s*(.*?)\\s*Đơn vị mua hàng:"
+    parser: regex
+    
+  buyer_unit: 'Đơn vị mua hàng:\s+(.+?)\s+Mã số thuế:'
+  buyer_tax_code:
+    regex: "Mã số thuế:\\s+(\\d{10})"
+    parser: regex
+    group: last
+  buyer_address: 'Địa chỉ:\s+(.+?)\s+Phương thức thanh toán:'
+  payment_method: 'Phương thức thanh toán:\s+(.+)'
+  total_net: 'Cộng tiền hàng:\s+([\d.]+)'
+  tax amount: 'Tiền thuế GTGT.*?\)\s+([\d.]+)'
+  amount: 'Tổng số tiền thanh toán:\s+([\d.]+)'
+  vat_rate: "Tiền thuế GTGT\\s*\\(\\s*(\\d{1,2})\\s*%\\s*\\)"
+  lines:
+    start: "STT\\s+Tên hàng hóa, dịch vụ"
+    end: "Cộng tiền hàng"
+    parser: lines
+    line:
+      - "^\\s*(?P<item_no>\\d+)\\s+(?P<name>DO.+?)\\s+(?P<unit>\\S+)\\s+(?P<quantity>[\\d.,]+)\\s+(?P<unit_price>[\\d.,]+)\\s+(?P<line_total>[\\d.,]+)\\s*$"
+    types:
+      qty: float
+      unit_price: float
+      line_total: float
+

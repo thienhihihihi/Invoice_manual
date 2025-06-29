@@ -1,0 +1,110 @@
+                                                 HÓA ĐƠN GIÁ TRỊ GIA TĂNG                                           Ký hiệu (Serial):      1C22TAA
+                                                                 (VAT INVOICE)                                      Số (No):                  91
+                                                         (Bản thể hiện của hóa đơn điện tử)
+                                              Ngày (date) 27 tháng (month) 06 năm (year) 2022
+                                         Mã của cơ quan thuế: 002228E1E5DD294AC8BF72C26DD42C3450
+
+
+Tên đơn vị bán (Seller): CÔNG TY TNHH IN ẤN TRÍ LUẬT
+Mã số thuế (Tax code): 0310439421
+Địa chỉ (Address): 267/11/7 Đường Trịnh Đình Trọng, Phường Hoà Thạnh, Quận Tân Phú, Thành phố Hồ Chí Minh, Việt Nam
+Điện thoại (Tel): 0906385831                                Email: info@inanhoadon.net
+Số tài khoản (A/C number): 90143089
+
+
+Tên người mua (Buyer):
+Tên đơn vị (Company's name): Khách lẻ không lấy hóa đơn
+Mã số thuế (Tax code):
+Địa chỉ (Address):
+Số tài khoản (A/C number):
+Hình thức thanh toán (Payment method): TM/CK
+
+                                                                                                     Thành tiền
+                                                  Đơn vị                                 Thuế                           Tiền thuế        Thành tiền có
+ STT          Tên hàng hóa, dịch vụ                           Số lượng       Đơn giá                chưa có thuế
+                                                   tính                                  suất                            GTGT             thuế GTGT
+                                                                                                      GTGT
+                                                                                                      (Amount
+ (No)                (Description)                 (Unit)     (Quantity) (Unit Price) (VAT rate)                      (Amount VAT)         (Amount)
+                                                                                                   excluding VAT)
+  1                       2                 3                     4            5            6          7 = 4x5           8 = 6x7           9 = 7+8
+        Hợp đồng mua bán đặt cọc nhà đất
+  1                                      Quyển                          18 63.888,88       8%            1.150.000            92.000           1.242.000
+        3 liên 150 tờ
+        Hợp đồng mua bán đặt cọc nhà đất
+  2                                      Quyển                           3   57.407,4      8%              172.222            13.778             186.000
+        3 liên 99 tờ
+        Hợp đồng mua bán đặt cọc nhà đất
+  3                                      Quyển                           3 50.925,92       8%              152.778            12.222             165.000
+        2 liên 100 tờ
+        Giấy Vay Tiền Và Cam Kết Trả Nợ
+  4                                      Quyển                           3 17.592,59       8%                52.778             4.222             57.000
+        1 liên 100 tờ
+        Giấy Vay Tiền Và Cam Kết Trả Nợ
+  5                                      Quyển                          34     25.000      8%              850.000            68.000             918.000
+        2 liên 100 tờ (50 bộ)
+        Cuốn Oder 2 liên (7x10) cho nhà
+  6                                      Quyển                          73   4.444,44      8%              324.444            25.956             350.400
+        hàng, quán ăn
+  7     Tampon Elephant Xanh cỡ 03               Cái                     1 15.648,15       8%                15.648             1.252             16.900
+  8     Tampon Elephant Đỏ cỡ 03                 Cái                    10 15.648,15       8%              156.482            12.519             169.001
+  9     Tampon Elephant Đen cỡ 03                Cái                     2 15.648,15       8%                31.296             2.504             33.800
+  10    Biên lai giao hụi A6                     Quyển                  11 13.888,89       8%              152.778            12.222             165.000
+  11    Biên lai giao hụi A5                     Quyển                   3     25.000      8%                75.000             6.000             81.000
+  12    Hóa Đơn Phòng Trọ 2 liên khổ A6          Quyển                  11 13.888,89       8%              152.778            12.222             165.000
+  13    Biên nhận tiền cọc A5                    Quyển                   1     25.000      8%                25.000             2.000             27.000
+  14    Sổ theo dõi đóng tiền hụi A5             Quyển                   4 27.777,78       8%              111.111              8.889            120.000
+  15    Sổ theo dõi đóng tiền hụi A4             Quyển                   3   46.296,3      8%              138.889            11.111             150.000
+                                                             Tổng tiền chưa có thuế GTGT (Total amount):                                       3.561.204
+                                                             Tổng số tiền thuế giá trị gia tăng (VAT amount):                                    284.896
+                                                             Tổng tiền thanh toán đã có thuế GTGT (Total payment):                             3.846.100
+Số tiền viết bằng chữ (Amount in words): Ba triệu tám trăm bốn mươi sáu nghìn một trăm đồng
+Tra cứu hóa đơn điện tử tại website: https://tracuuhoadon.triluat.com    Mã tra cứu: 08E3549D36AFC2A4
+                      (Khởi tạo từ Phần mềm M-INVOICE - Công ty TNHH Hóa đơn điện tử M-invoice - MST: 0106026495- SĐT : 0901 80 16 18)
+                                                                                                                                              Trang 1/2
+                                                 HÓA ĐƠN GIÁ TRỊ GIA TĂNG                                           Ký hiệu (Serial):      1C22TAA
+                                                                 (VAT INVOICE)                                      Số (No):                  91
+                                                          (Bản thể hiện của hóa đơn điện tử)
+                                              Ngày (date) 27 tháng (month) 06 năm (year) 2022
+                                         Mã của cơ quan thuế: 002228E1E5DD294AC8BF72C26DD42C3450
+
+
+Tên đơn vị bán (Seller): CÔNG TY TNHH IN ẤN TRÍ LUẬT
+Mã số thuế (Tax code): 0310439421
+Địa chỉ (Address): 267/11/7 Đường Trịnh Đình Trọng, Phường Hoà Thạnh, Quận Tân Phú, Thành phố Hồ Chí Minh, Việt Nam
+Điện thoại (Tel): 0906385831                                Email: info@inanhoadon.net
+Số tài khoản (A/C number): 90143089
+
+
+Tên người mua (Buyer):
+Tên đơn vị (Company's name): Khách lẻ không lấy hóa đơn
+Mã số thuế (Tax code):
+Địa chỉ (Address):
+Số tài khoản (A/C number):
+Hình thức thanh toán (Payment method): TM/CK
+
+                                                                                                     Thành tiền
+                                                  Đơn vị                                 Thuế                           Tiền thuế        Thành tiền có
+STT            Tên hàng hóa, dịch vụ                          Số lượng     Đơn giá                  chưa có thuế
+                                                   tính                                  suất                            GTGT             thuế GTGT
+                                                                                                      GTGT
+                                                                                                      (Amount
+(No)                 (Description)                 (Unit)     (Quantity) (Unit Price) (VAT rate)                      (Amount VAT)         (Amount)
+                                                                                                   excluding VAT)
+  1                        2                          3           4            5            6          7 = 4x5           8 = 6x7            9 = 7+8
+
+      Người mua hàng (Buyer)                                                                                            Người bán hàng (Seller)
+       (Chữ ký điện tử, Chữ ký số)                                                                                       (Chữ ký điện tử, Chữ ký số)
+
+                                                                                                               Signature Valid
+                                                                                                               CÔNG TY TNHH IN ẤN TRÍ
+                                                                                                               LUẬT
+                                                                                                               Ngày ký: 27/06/2022 18:20:12
+
+
+
+
+Tra cứu hóa đơn điện tử tại website: https://tracuuhoadon.triluat.com   Mã tra cứu: 08E3549D36AFC2A4
+                      (Khởi tạo từ Phần mềm M-INVOICE - Công ty TNHH Hóa đơn điện tử M-invoice - MST: 0106026495- SĐT : 0901 80 16 18)
+                                                                                                                                               Trang 2/2
+

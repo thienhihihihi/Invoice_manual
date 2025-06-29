@@ -1,0 +1,103 @@
+template_name: viettel_lines
+keywords:
+  - "HÓA ĐƠN GIÁ TRỊ GIA TĂNG"
+options:
+  decimal_separator: ','
+  remove_thousand_separator: true
+fields:
+  invoice_number:
+    parser: regex
+    regex: 'Số \(No\.\):\s*(\d+)'
+
+  date:
+    parser: regex
+    regex: 'Ngày \(date\) (\d{2} tháng \(month\) \d{2} năm \(year\) \d{4})'
+    result_format: '{2}-{1}-{0}'  # yyyy-mm-dd
+
+  seller: "Đơn vị bán hàng \\(Issued\\):\\s*(.+)"
+  seller_tax_code:
+    regex: "Mã số thuế \\(Tax code\\):\\s*(\\d+)"
+    parser: regex
+    group: first
+
+  seller_address:
+    regex: "Địa chỉ \\(Address\\):\\s*(.+)"
+    parser: regex
+    group: first
+  seller_phone: "Điện thoại \\(Phone number\\):\\s*(.+)"
+
+  seller_bank_account:
+    regex: "Số tài khoản \\(Account No\\.\\):\\s*([^\n\r]*)"
+    parser: regex
+    required: false
+
+
+    
+
+  #BUYER
+  buyer_name:
+    regex: "Họ tên người mua hàng \\(Buyer name\\):[ \\t\\r\\n]*?(?=Tên đơn vị \\(Company name\\):)"
+    parser: regex
+    required: false
+
+
+
+
+
+
+    
+    
+
+  buyer:
+    parser: regex
+    regex: 'Tên đơn vị \(Company name\):\s*(.+)'
+
+  buyer_tax_id:
+    regex: "Mã số thuế \\(Tax code\\):\\s*(\\d+)"
+    parser: regex
+    group: last
+
+  buyer_address:
+    regex: "Địa chỉ \\(Address\\):\\s*(.+)"
+    parser: regex
+    group: last
+  payment_method: "Hình thức thanh toán \\(Payment method\\):\\s*([A-Z/]+)"
+
+  buyer_bank_account:
+    regex: "Số tài khoản \\(Account No\\.\\):\\s*(.+?)\\s*(?=Ghi chú \\(Note\\):)"
+    parser: regex
+
+  amount_untaxed:
+    parser: regex
+    regex: 'Cộng tiền hàng \(Total amount\):\s*([\d.,]+)'
+
+  amount_tax:
+    parser: regex
+    regex: 'Tiền thuế GTGT \(VAT Amount\):\s*([\d.,]+)'
+
+  amount_total:
+    parser: regex
+    regex: 'Tổng cộng tiền thanh toán \(Total payment\):\s*([\d.,]+)'
+  amount:
+    parser: regex
+    regex: 'Tổng cộng tiền thanh toán \(Total payment\):\s*([\d.,]+)'
+
+  
+
+  lines:
+    start: "STT"
+    end: "Cộng tiền hàng"
+    parser: lines
+    first_line:
+      - '^\s*(?P<item_no>\d+)\s+(?P<name>.+?)\s+(?P<unit>\S+)\s+(?P<qty>[\d.,]+)\s+(?P<unit_price>[\d.,]+)\s+(?P<line_total>[\d.,]+)\s*$'
+    line:
+      - '^\s*(?P<item_no>\d+)\s+(?P<name>.+?)\s+(?P<unit>\S+)\s+(?P<qty>[\d.,]+)\s+(?P<unit_price>[\d.,]+)\s+(?P<line_total>[\d.,]+)\s*$'
+    skip:
+      - '^\s*ĐVT\s+Số lượng\s+Đơn giá\s+Thành tiền'
+      - '^\s*\(No\.\)'
+      - '^\s*\d+\s+2\s+3\s+4\s+5\s+6=4x5'
+    types:
+      qty: int
+      unit_price: float
+      line_total: float
+
