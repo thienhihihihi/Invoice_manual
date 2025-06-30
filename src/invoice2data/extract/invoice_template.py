@@ -246,9 +246,7 @@ class InvoiceTemplate(OrderedDictType[str, Any]):
             Dict[str, Any]: The extracted data.
 
         """
-        print("=== START optimized_str ===")
-        print(optimized_str)
-        print("=== END optimized_str ===")
+        
 
         output = _initialize_output_and_log(self, optimized_str)
         print("haha")
@@ -288,7 +286,7 @@ def _initialize_output_and_log(
     self: InvoiceTemplate, optimized_str: str
 ) -> Dict[str, Any]:
     """Initialize the output dictionary and log debug information."""
-    logger.debug("START optimized_str ========================\n" + optimized_str)
+    logger.debug("START optimized_str ========================\n")
     logger.debug("END optimized_str ==========================")
     logger.debug("END optimized_str =====ahahahah=====================")
     logger.debug(
@@ -378,7 +376,7 @@ def _check_required_fields(
 ) -> Dict[str, Any]:
     """Check if all required fields are present in the output."""
     if "required_fields" not in self.keys():
-        required_fields = ["date", "amount", "invoice_number", "issuer"]
+        required_fields = ["amount", "invoice_number", "issuer"]
         
     else:
         required_fields = []

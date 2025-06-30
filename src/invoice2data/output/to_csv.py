@@ -10,45 +10,44 @@ def write_to_file(
     else:
         filename = path
 
+    # ✅ Định nghĩa danh sách field bắt buộc (theo đúng thứ tự yêu cầu)
+    required_fields = [
+        "invoice_number", "date", "seller", "seller_tax_code", "seller_address", "seller_phone",
+        "seller_bank_account", "buyer_name", "buyer", "buyer_tax_id", "buyer_address", "payment_method",
+        "buyer_bank_account", "vat_rate", "amount_untaxed", "amount_tax", "amount_total", "amount",
+        "item_no","description","unit", "qty", "unit_price", "line_total"
+    ]
+
     with open(filename, "w", newline="", encoding="utf-8") as csv_file:
-        writer = None  # Writer chưa khởi tạo
+        writer = csv.DictWriter(csv_file, fieldnames=required_fields)
+        writer.writeheader()
 
         for entry in data:
-            # Nếu có field "lines" → mở rộng từng dòng
             lines = entry.get("lines", [])
             if isinstance(lines, list) and lines:
                 for line in lines:
-                    flat_row = {}
+                    flat_row = {field: "" for field in required_fields}
 
-                    # Thêm thông tin hóa đơn vào từng dòng line item
+                    # Gộp các field trong hóa đơn
                     for k, v in entry.items():
                         if k == "lines":
                             continue
                         if isinstance(v, datetime.datetime):
                             v = v.strftime(date_format)
-                        flat_row[k] = v
+                        if k in flat_row:
+                            flat_row[k] = v
 
-                    # Thêm các trường trong 1 dòng sản phẩm
+                    # Gộp các field trong 1 dòng sản phẩm
                     for k, v in line.items():
-                        flat_row[k] = v
-
-                    # Khởi tạo header lần đầu
-                    if writer is None:
-                        writer = csv.DictWriter(csv_file, fieldnames=list(flat_row.keys()))
-                        writer.writeheader()
+                        if k in flat_row:
+                            flat_row[k] = v
 
                     writer.writerow(flat_row)
-
             else:
-                # Không có dòng sản phẩm → ghi dòng thông thường
-                row = {}
+                row = {field: "" for field in required_fields}
                 for k, v in entry.items():
                     if isinstance(v, datetime.datetime):
                         v = v.strftime(date_format)
-                    row[k] = v
-
-                if writer is None:
-                    writer = csv.DictWriter(csv_file, fieldnames=list(row.keys()))
-                    writer.writeheader()
-
+                    if k in row:
+                        row[k] = v
                 writer.writerow(row)

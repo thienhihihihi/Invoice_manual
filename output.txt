@@ -1,0 +1,53 @@
+                                        HÓA ĐƠN GIÁ TRỊ GIA TĂNG                                                VAT INVOICE
+                                                Bản thể hiện của hóa đơn điện tử                                Ký hiệu (Serial): 1C22TLS
+                                       Ngày (Date) 30 tháng (month) 06 năm (year) 2022                          Số (No.): 3776
+
+
+Mã cơ quan thuế cấp: 00D4F426282F4E4A3587684038C1A490D9
+
+Đơn vị bán hàng (Seller's name) : CÔNG TY TNHH GIẤY VI TÍNH LIÊN SƠN
+Mã số thuế (Tax code) : 0301452923                       Hotline: 19003000
+Địa chỉ (Address) : 34 Nguyễn Bỉnh Khiêm, Phường Đa Kao, Quận 1, TPHCM, Việt Nam
+Điện thoại (Tel) : (028)39100555                  Website: www.lienson.vn                      Email: lienson@lienson.vn
+Số tài khoản (Account number) : 0371001888888 tại Ngân hàng TMCP Ngoại Thương Việt Nam - CN Tân Định
+200014851042335 tại NH Eximbank - CN TP. HCM | 1014431081 NH TMCP Ngoại Thương Việt Nam – CN TPHCM
+112000004334 tại Ngân hàng TMCP Công Thương VN - CN TPHCM
+
+Họ tên người mua hàng (Customer's name) :
+Tên đơn vị (Company's name) : CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT
+Mã số thuế (Tax code) : 0309723879
+Địa chỉ (Address) : 256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam
+Hình thức thanh toán (Payment method) :            Chuyển khoản                        Số tài khoản (Account number) :
+
+STT                 Tên hàng hóa, dịch vụ                      Đơn vị tính        Số lượng            Đơn giá                Thành tiền
+(No.)                     (Description)                            (Unit)         (Quantity)         (Unit price)              (Amount)
+ (1)                           (2)                                   (3)              (4)                 (5)               (6) = (4) x (5)
+        giấy carbon impression ltdl (trắng ,hồng
+  1     ,Vàng ) KT: 279 x 240 (Trắng,Hồng,Vàng)                   Thùng               30                    320.100                 9.603.000
+        (PÐH: 248116) =GI63
+        giấy carbon impression ltdl ( W,W,W,W)
+  2     KT: 279 x 380 (Trắng,Trắng,Trắng,Trắng)                   Thùng               20                    475.000                 9.500.000
+        (PÐH: 248118)        =GI81
+
+
+                                                                                Cộng tiền hàng (Total amount):                     19.103.000
+Thuế suất GTGT (VAT rate):8%                                                   Tiền thuế GTGT (VAT amount):                          1.528.240
+                                                                       Tổng tiền thanh toán (Total payment):                       20.631.240
+Số tiền bằng chữ (Amount in words): Hai mươi triệu sáu trăm ba mươi mốt nghìn hai trăm bốn mươi đồng
+
+                Người mua hàng (Buyer)                                                  Người bán hàng (Seller)
+        (Ký, ghi rõ họ tên) (Signature & fullname)                              (Ký, ghi rõ họ tên) (Signature & fullname)
+
+                                                                                        Signature valid
+                                                                                        Được ký bởi: CÔNG TY TNHH
+                                                                                        GIẤY VI TÍNH LIÊN SƠN
+                                                                                        Ngày ký: 30 / 06 / 2022
+
+                                                   (Cần kiểm tra đối chiếu khi lập, giao, nhận hóa đơn)
+                             Tra cứu hóa đơn điện tử tại trang web: https://tracuu.lienson.vn Mã số tra cứu: 228JHFL4AS6U
+                       Đơn vị cung cấp dịch vụ hóa đơn điện tử: CÔNG TY TNHH GIẤY VI TÍNH LIÊN SƠN, MST: 0301452923
+
+
+
+                                                                                                                                          trang 1 / 1
+

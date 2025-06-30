@@ -1,0 +1,51 @@
+invoice_number,date,seller,seller_tax_code,seller_address,seller_phone,seller_bank_account,buyer_name,buyer,buyer_tax_id,buyer_address,payment_method,buyer_bank_account,vat_rate,amount_untaxed,amount_tax,amount_total,amount,item_no,description,unit,qty,unit_price,line_total
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,1,Bìa ép A4        =BI10,Xấp,3,75000.0,225000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,2,Dao rọc giấy lớn,Cây,2,25500.0,51000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,3,Dao rọc giấy nhỏ =DA10,Cây,3,9000.0,27000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,4,Giấy than =GI02,Hộp,5,54500.0,272500.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,5,Hồ         =HO02,Chai,3,1300.0,3900.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,6,Hộp tampong No.2             =HO08,Cái,1,27000.0,27000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,7,Hộp tampong No.3           =HO01,Cái,1,23000.0,23000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,8,Kéo nhỏ                   KE18,Cái,6,7000.0,42000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,9,Kẹp bướm 19          =KE11,Hộp,4,4500.0,18000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,10,Kẹp bướm 25          KE13,Hộp,1,7000.0,7000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,11,Kẹp bướm 32             KE01,Hộp,5,9600.0,48000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,12,Kẹp bướm 41          =KE14,Hộp,2,14500.0,29000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,13,Kẹp bướm 51         =KE16,Hộp,1,22500.0,22500.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,14,Kẹp giấy       =KE02,Hộp,24,2500.0,60000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,15,Kẹp giấy lớn       =KE35,Hộp,2,3000.0,6000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,16,Kim bấm 10            =KI01,Hộp,70,2000.0,140000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,17,Lưỡi dao lớn          =LU01,Hộp,33,13500.0,445500.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,18,Lưỡi dao nhỏ           =LU02,Hộp,9,8000.0,72000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,19,Máy bấm kim 10             =MA20,Cái,6,13000.0,78000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,20,Máy tính             =MA04,Cái,3,53500.0,160500.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,21,Mực dấu Tampong            =MU04,Chai,30,4000.0,120000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,22,Sáp đếm tiền          =SA02,Cái,1,4500.0,4500.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,23,Thước sắt 15cm =TS02,Cây,1,7000.0,7000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,24,Thước sắt 30          =TS01,Cây,2,12000.0,24000.0
+118,28 tháng (month) 06 năm (year) 2022,"CÔNG TY TNHH THƯƠNG MẠI ĐỨC THÀNH PHÁT",0309723879,"256/140/1D Phan Huy Ích, Phường 12, Quận Gò Vấp, TPHCM, Việt Nam",,,"Họ tên người mua hàng (Buyer name):
+",,0301466972,"162A _ HỒ HỌC LÃM , PHƯỜNG AN LẠC , QUẬN BÌNH TÂN , TPHCM",TM/CK,"",10%,1.997.400,199.740,2.197.140,2.197.140,25,Viết xóa             =VI28,Cây,8,10500.0,84000.0

@@ -152,13 +152,16 @@
         price_subtotal: float
 
   tables:
-    - start: Bank\sAccount[:] (US\d+)
-      end: Incoterm[:]\s(\w+)
-      body: (?P<narration>[\S ]+)
-      # aditionally parse the same data to the chatter
-    - start: Bank\sAccount[:] (US\d+)
-      end: Incoterm[:]\s(\w+)
-      body: (?P<note>[\S ]+)
+  - start: "STT"
+    end: "(?i)Cộng tiền hàng|Tổng cộng"
+    body: |
+      (?P<item_no>\d+)\s+
+      (?P<description>(?:.+\n?)+?)
+      \s*(?P<unit>Thùng|Hộp|Túi|Cuộn|Cái|Chiếc)\s+
+      (?P<quantity>[\d.]+)\s+
+      (?P<unit_price>[\d.,]+)\s+
+      (?P<line_total>[\d.,]+)
+
 
   keywords:
     - azure

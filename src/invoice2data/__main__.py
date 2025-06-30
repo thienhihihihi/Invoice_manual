@@ -153,9 +153,7 @@ def extract_data(
         input_module = text if invoicefile.lower().endswith(".txt") else pdftotext
 
     extracted_str = input_module.to_text(invoicefile)
-    print("\n================== PDF TEXT ==================")
-    print(extracted_str)
-    print("==============================================\n")
+    
     if not isinstance(extracted_str, str) or not extracted_str.strip():
         logger.error(
             "Failed to extract text from %s using %s",

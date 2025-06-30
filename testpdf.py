@@ -25,7 +25,7 @@ def pdftotext_extract(pdf_path):
 
 # ==== CHẠY THỬ ====
 if __name__ == "__main__":
-    pdf_file = "VIETTEL.pdf"  # Đường dẫn đến file PDF
+    pdf_file = "gold.pdf"  # Đường dẫn đến file PDF
     text = pdftotext_extract(pdf_file)
     print("📄 TEXT EXTRACTED:")
     print("=" * 50)

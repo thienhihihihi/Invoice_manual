@@ -1,9 +1,8 @@
-template_name: viettel_lines
+template_name: exclude
 keywords:
   - "HÓA ĐƠN GIÁ TRỊ GIA TĂNG"
-exclude_keywords:
-  - "CÔNG TY XĂNG DẦU"
   - "chưa thuế"
+
 options:
   decimal_separator: ','
   remove_thousand_separator: true
@@ -39,8 +38,7 @@ fields:
 
   seller_bank_account:
     parser: regex
-    regex: '(?s)(Số tài khoản|Tài khoản\s*\(A/C number\))\s*:\s*(.*?)\s*Họ tên người mua hàng'
-
+    regex: '(?s)Số tài khoản.*?:\s*(.*?)\s*Họ tên người mua hàng'
 
 
     
@@ -72,14 +70,12 @@ fields:
     regex: "Số tài khoản \\(Account No\\.\\):\\s*(.+?)\\s*(?=Ghi chú \\(Note\\):)"
     parser: regex
 
-  vat_rate:
-    parser: regex
-    regex: 'Thuế suất GTGT\s*\(VAT rate\)\s*:\s*([\d%]+)'
+  
 
 
   amount_untaxed:
     parser: regex
-    regex: 'Cộng tiền hàng \(Total amount\):\s*([\d.,]+)'
+    regex: "Tổng\\s+tiền\\s+chịu\\s+thuế\\s+suất.*?:.*?\\d+%\\s+([\\d.]+)"
 
   amount_tax:
     parser: regex
@@ -87,26 +83,29 @@ fields:
 
   amount_total:
     parser: regex
-    regex: 'Tổng cộng tiền thanh toán \(Total payment\):\s*([\d.,]+)'
+    regex: "Tổng\\s+tiền\\s+chịu\\s+thuế\\s+suất.*?:.*?\\d+%\\s+[\\d.]+\\s+([\\d.]+)"
   amount:
     parser: regex
-    regex: 'Tổng cộng tiền thanh toán \(Total payment\):\s*([\d.,]+)'
+    regex: "Tổng\\s+tiền\\s+chịu\\s+thuế\\s+suất.*?:.*?\\d+%\\s+[\\d.]+\\s+[\\d.]+\\s+([\\d.]+)"
 
   
 
   lines:
-    start: "STT"
-    end: "Cộng tiền hàng"
+    start: "Tên hàng hóa, dịch vụ"
+    end: "Thuế suất"
     parser: lines
+    merge_lines: false
+    replace:
+      - ["\\u00A0", " "]
+    
     first_line:
-      - '^\s*(?P<item_no>\d+)\s+(?P<description>.+?)\s+(?P<unit>\S+)\s+(?P<qty>[\d.,]+)\s+(?P<unit_price>[\d.,]+)\s+(?P<line_total>[\d.,]+)\s*$'
-    line:
-      - '^\s*(?P<item_no>\d+)\s+(?P<description>.+?)\s+(?P<unit>\S+)\s+(?P<qty>[\d.,]+)\s+(?P<unit_price>[\d.,]+)\s+(?P<line_total>[\d.,]+)\s*$'
-    skip:
-      - '^\s*ĐVT\s+Số lượng\s+Đơn giá\s+Thành tiền'
-      - '^\s*\(No\.\)'
-      - '^\s*\d+\s+2\s+3\s+4\s+5\s+6=4x5'
-    types:
-      qty: int
-      unit_price: float
-      line_total: float
+      - "^\\s*(?P<item_no>\\d+)\\s{2,}(?P<name>.+?)\\s{2,}(?P<unit>\\S+)\\s{2,}(?P<quantity>[\\d.]+)\\s{2,}(?P<unit_price>[\\d.]+)\\s{2,}(?P<amount_before_vat>[\\d.]+)\\s{2,}(?P<vat_rate>\\d+%)\\s{2,}(?P<vat_amount>[\\d.]+)\\s{2,}(?P<amount_after_vat>[\\d.]+)"
+    line: []
+
+
+
+
+
+
+
+

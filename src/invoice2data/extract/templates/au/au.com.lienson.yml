@@ -1,0 +1,125 @@
+template_name: lienson
+keywords:
+  - "CÔNG TY TNHH GIẤY VI TÍNH LIÊN SƠN"
+  - "HÓA ĐƠN GIÁ TRỊ GIA TĂNG"
+  - "VAT INVOICE"
+options:
+  decimal_separator: ','
+  remove_thousand_separator: true
+fields:
+  invoice_number:
+    parser: regex
+    regex: 'Số \(No\.\):\s*(\d+)'
+
+  date:
+    parser: regex
+    regex: "Ngày \\(Date\\)\\s+(\\d{2})\\s+tháng \\(month\\)\\s+(\\d{2})\\s+năm \\(year\\)\\s+(\\d{4})"
+    result_format: '{3}-{2}-{1}'  # yyyy-mm-dd
+
+
+
+
+
+  seller:
+    parser: regex
+    regex: "Đơn vị bán hàng \\(Seller's name\\)\\s*(.+)"
+
+
+  seller_tax_code:
+    parser: regex
+    regex: 'Mã số thuế \(Tax code\)\s*:\s*(\d+)'
+    group: first
+
+  seller_address:
+    parser: regex
+    regex: 'Địa chỉ \(Address\)\s*:\s*(.+)'
+    group : first
+
+  seller_phone:
+    parser: regex
+    regex: 'Điện thoại \(Tel\)\s*:\s*([\d()\-]+)'
+    
+
+  seller_email:
+    parser: regex
+    regex: 'Email\s*:\s*(\S+@\S+)'
+
+  seller_bank_account:
+    parser: regex
+    regex: '(?s)Số tài khoản.*?:\s*(.*?)\s*Họ tên người mua hàng'
+
+
+
+
+  buyer_name:
+    parser: regex
+    regex: '(?s)Họ tên người mua hàng.*?:\s*(.*?)\s*Tên đơn vị'
+
+
+
+  buyer_company:
+    parser: regex
+    regex: "Tên đơn vị \\(Company's name\\)\\s*:\\s*(.+)"
+
+
+  buyer_tax_code:
+    parser: regex
+    regex: 'Mã số thuế \(Tax code\)\s*:\s*(\d+)'
+    group: last
+
+  buyer_address:
+    parser: regex
+    regex: 'Địa chỉ \(Address\)\s*:\s*(.+?)\s+Hình thức thanh toán'
+    
+
+  payment_method:
+    parser: regex
+    regex: 'Hình thức thanh toán \(Payment method\)\s*:\s*(\S+)'
+
+  buyer_bank_account:
+    parser: regex
+    regex: '(?s)Họ tên người mua hàng.*?Số tài khoản.*?:\s*(.*?)\s*STT'
+
+
+
+  vat_rate:
+    parser: regex
+    regex: 'Thuế suất GTGT \(VAT rate\):\s*([\d%]+)'
+
+  amount_untaxed:
+    parser: regex
+    regex: 'Cộng tiền hàng \(Total amount\):\s*([\d.]+)'
+
+  amount_tax:
+    parser: regex
+    regex: 'Tiền thuế GTGT \(VAT amount\):\s*([\d.]+)'
+
+  amount:
+    parser: regex
+    regex: 'Tổng tiền thanh toán \(Total payment\):\s*([\d.]+)'
+
+  amount_words:
+    parser: regex
+    regex: 'Số tiền bằng chữ \(Amount in words\):\s*(.+)'
+
+  lines:
+    parser: lines
+    start: "STT\\s+Tên hàng hóa"
+    end: "Cộng tiền hàng|Tổng cộng"
+    line_separator: "\\n"
+    field_separator: "\\s{2,}"
+    merge_lines: true
+
+    first_line:
+      - '^ *?(?P<item_no>\d+)\s+(?P<description>.+?)\s{2,}(?P<unit>\S+)\s+(?P<quantity>[\d.]+)\s+(?P<unit_price>[\d.,]+)\s+(?P<line_total>[\d.,]+)'
+
+    line:
+      - '^ *(?!\\d+\\s)(?P<description>.+)'
+
+
+
+  
+
+
+      
+

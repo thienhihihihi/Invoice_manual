@@ -15,20 +15,34 @@ fields:
     group: first
     
   seller_address: 'Địa chỉ:\s+(.+?)\s+Cửa hàng số:'
+  seller_phone: "Điện thoại \\(Phone number\\):\\s*(.+)"
+
+  seller_bank_account:
+    parser: regex
+    regex: '(?s)Số tài khoản.*?:\s*(.*?)\s*Họ tên người mua hàng'
   store: 'Cửa hàng số:\s+(.+)'
-  buyer:
+
+  #Buyer
+  buyer_name:
     regex: "Người mua hàng:\\s*(.*?)\\s*Đơn vị mua hàng:"
     parser: regex
     
-  buyer_unit: 'Đơn vị mua hàng:\s+(.+?)\s+Mã số thuế:'
-  buyer_tax_code:
+  buyer: 'Đơn vị mua hàng:\s+(.+?)\s+Mã số thuế:'
+  buyer_tax_id:
     regex: "Mã số thuế:\\s+(\\d{10})"
     parser: regex
     group: last
   buyer_address: 'Địa chỉ:\s+(.+?)\s+Phương thức thanh toán:'
   payment_method: 'Phương thức thanh toán:\s+(.+)'
-  total_net: 'Cộng tiền hàng:\s+([\d.]+)'
-  tax amount: 'Tiền thuế GTGT.*?\)\s+([\d.]+)'
+  
+  buyer_bank_account:
+    regex: "Số tài khoản \\(Account No\\.\\):\\s*(.+?)\\s*(?=Ghi chú \\(Note\\):)"
+    parser: regex
+
+
+  amount_untaxed: 'Cộng tiền hàng:\s+([\d.]+)'
+  amount_tax: 'Tiền thuế GTGT.*?\)\s+([\d.]+)'
+  amount_total: 'Tổng số tiền thanh toán:\s+([\d.]+)'
   amount: 'Tổng số tiền thanh toán:\s+([\d.]+)'
   vat_rate: "Tiền thuế GTGT\\s*\\(\\s*(\\d{1,2})\\s*%\\s*\\)"
   lines:
@@ -36,7 +50,7 @@ fields:
     end: "Cộng tiền hàng"
     parser: lines
     line:
-      - "^\\s*(?P<item_no>\\d+)\\s+(?P<name>DO.+?)\\s+(?P<unit>\\S+)\\s+(?P<quantity>[\\d.,]+)\\s+(?P<unit_price>[\\d.,]+)\\s+(?P<line_total>[\\d.,]+)\\s*$"
+      - "^\\s*(?P<item_no>\\d+)\\s+(?P<name>DO.+?)\\s+(?P<unit>\\S+)\\s+(?P<qty>[\\d.,]+)\\s+(?P<unit_price>[\\d.,]+)\\s+(?P<line_total>[\\d.,]+)\\s*$"
     types:
       qty: float
       unit_price: float
