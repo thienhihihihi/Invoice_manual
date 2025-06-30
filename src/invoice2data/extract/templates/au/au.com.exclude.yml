@@ -99,7 +99,7 @@ fields:
       - ["\\u00A0", " "]
     
     first_line:
-      - "^\\s*(?P<item_no>\\d+)\\s{2,}(?P<name>.+?)\\s{2,}(?P<unit>\\S+)\\s{2,}(?P<quantity>[\\d.]+)\\s{2,}(?P<unit_price>[\\d.]+)\\s{2,}(?P<amount_before_vat>[\\d.]+)\\s{2,}(?P<vat_rate>\\d+%)\\s{2,}(?P<vat_amount>[\\d.]+)\\s{2,}(?P<amount_after_vat>[\\d.]+)"
+      - "^\\s*(?P<item_no>\\d+)\\s{2,}(?P<description>.+?)\\s{2,}(?P<unit>\\S+)\\s{2,}(?P<qty>[\\d.]+)\\s{2,}(?P<unit_price>[\\d.]+)\\s{2,}(?P<line_total>[\\d.]+)\\s{2,}(?P<vat_rate>\\d+%)\\s{2,}(?P<vat_amount>[\\d.]+)\\s{2,}(?P<amount_after_vat>[\\d.]+)"
     line: []
 
 

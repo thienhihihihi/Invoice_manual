@@ -57,7 +57,7 @@ fields:
 
 
 
-  buyer_company:
+  buyer:
     parser: regex
     regex: "Tên đơn vị \\(Company's name\\)\\s*:\\s*(.+)"
 
@@ -97,7 +97,9 @@ fields:
   amount:
     parser: regex
     regex: 'Tổng tiền thanh toán \(Total payment\):\s*([\d.]+)'
-
+  amount_total:
+    parser: regex
+    regex: 'Tổng tiền thanh toán \(Total payment\):\s*([\d.]+)'
   amount_words:
     parser: regex
     regex: 'Số tiền bằng chữ \(Amount in words\):\s*(.+)'
@@ -111,7 +113,7 @@ fields:
     merge_lines: true
 
     first_line:
-      - '^ *?(?P<item_no>\d+)\s+(?P<description>.+?)\s{2,}(?P<unit>\S+)\s+(?P<quantity>[\d.]+)\s+(?P<unit_price>[\d.,]+)\s+(?P<line_total>[\d.,]+)'
+      - '^ *?(?P<item_no>\d+)\s+(?P<description>.+?)\s{2,}(?P<unit>\S+)\s+(?P<qty>[\d.]+)\s+(?P<unit_price>[\d.,]+)\s+(?P<line_total>[\d.,]+)'
 
     line:
       - '^ *(?!\\d+\\s)(?P<description>.+)'

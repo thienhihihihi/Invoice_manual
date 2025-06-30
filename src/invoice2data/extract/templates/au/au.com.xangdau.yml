@@ -50,7 +50,7 @@ fields:
     end: "Cộng tiền hàng"
     parser: lines
     line:
-      - "^\\s*(?P<item_no>\\d+)\\s+(?P<name>DO.+?)\\s+(?P<unit>\\S+)\\s+(?P<qty>[\\d.,]+)\\s+(?P<unit_price>[\\d.,]+)\\s+(?P<line_total>[\\d.,]+)\\s*$"
+      - "^\\s*(?P<item_no>\\d+)\\s+(?P<description>DO.+?)\\s+(?P<unit>\\S+)\\s+(?P<qty>[\\d.,]+)\\s+(?P<unit_price>[\\d.,]+)\\s+(?P<line_total>[\\d.,]+)\\s*$"
     types:
       qty: float
       unit_price: float
